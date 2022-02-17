@@ -6,7 +6,7 @@
 export default {
     setup() {
         return {
-            title: "What should the title be? Let's see the speed of change",
+            title: "What should the title be? Let me see the speed of change",
         };
     },
 };
