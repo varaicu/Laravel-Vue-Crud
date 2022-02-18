@@ -19291,80 +19291,134 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Let's see if it apears ");
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eligendi placeat ducimus, mollitia deleniti facere eveniet cum pariatur? Animi voluptates sapiente expedita! Eaque sit quaerat repudiandae sunt non consequatur. ");
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "d-flex w-15 flex-column bg-secondary bd-highlight"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "p-2 bd-highlight text-gray-200"
-}, "Product"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "p-2 bd-highlight"
-}, "Categories"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "p-2 bd-highlight"
-}, "Flex item 3")], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sapiente labore velit dolorum adipisci animi saepe veritatis optio veniam neque odit sint in, voluptate natus enim corporis praesentium. Ipsa, vel? One ");
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia laborum aperiam assumenda ipsam ex corrupti impedit harum quod, consequatur eum animi nihil beatae. Explicabo unde, atque tempore earum iste sunt. Two ");
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, asperiores? Alias error exercitationem quidem ut esse fuga aliquam magni, hic nemo natus non, repellat nihil, tenetur explicabo ab obcaecati laborum?");
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Three");
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tenetur asperiores rerum autem optio facere quos tempora dolore laboriosam! Neque sunt quaerat voluptatibus earum, vel esse rerum nobis distinctio provident? Four");
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Five");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_v_app_bar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-app-bar");
 
   var _component_v_navigation_drawer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-navigation-drawer");
 
-  var _component_v_card = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-card");
+  var _component_v_responsive = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-responsive");
+
+  var _component_v_card_actions = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-card-actions");
 
   var _component_v_main = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-main");
 
   var _component_v_app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-app");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app, null, {
+  var _component_v_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-layout");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_v_layout, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app_bar, {
-        height: "22",
-        color: "grey-darken-3",
-        elevation: "0"
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_navigation_drawer, {
-        width: "72",
-        color: "grey-darken-2",
-        permanent: ""
-      }, {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.title), 1
-          /* TEXT */
-          )];
-        }),
-        _: 1
-        /* STABLE */
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app_bar, {
+            height: "122",
+            color: "grey-darken-3",
+            elevation: "0"
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.title), 1
+              /* TEXT */
+              ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque similique id nemo delectus, iure corrupti maxime iste totam cupiditate voluptatum illum molestias voluptatem quas nostrum excepturi tenetur eos accusamus laudantium! " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.title) + " First Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptate necessitatibus quam officiis explicabo, ducimus adipisci delectus cum aliquam pariatur? Ipsum culpa laboriosam minima rerum dolorem magni excepturi ipsam sint? For real ", 1
+              /* TEXT */
+              )];
+            }),
+            _: 1
+            /* STABLE */
 
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_navigation_drawer, {
-        width: "150",
-        color: "grey-darken-1",
-        permanent: ""
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_1];
-        }),
-        _: 1
-        /* STABLE */
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_navigation_drawer, {
+            width: "150",
+            color: "grey-darken-2",
+            permanent: ""
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_2];
+            }),
+            _: 1
+            /* STABLE */
 
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app_bar, {
-        height: "48",
-        color: "grey",
-        elevation: "0"
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_navigation_drawer, {
-        position: "right",
-        width: "150",
-        color: "grey-lighten-1",
-        permanent: ""
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app_bar, {
-        position: "bottom",
-        height: "48",
-        color: "grey-lighten-2",
-        elevation: "0"
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_main, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_card, {
-            elevation: "0",
-            height: "400px"
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_navigation_drawer, {
+            width: "150",
+            color: "grey-darken-1",
+            permanent: ""
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_3];
+            }),
+            _: 1
+            /* STABLE */
+
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_responsive, null, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_4];
+            }),
+            _: 1
+            /* STABLE */
+
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app_bar, {
+            height: "48",
+            color: "grey",
+            elevation: "0"
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_5];
+            }),
+            _: 1
+            /* STABLE */
+
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_navigation_drawer, {
+            position: "right",
+            width: "150",
+            color: "grey-lighten-1",
+            permanent: ""
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_6];
+            }),
+            _: 1
+            /* STABLE */
+
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_app_bar, {
+            position: "bottom",
+            height: "48",
+            color: "grey-lighten-2",
+            elevation: "0"
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [_hoisted_7];
+            }),
+            _: 1
+            /* STABLE */
+
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_main, null, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_card_actions, null, {
+                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                  return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit at ducimus necessitatibus corporis enim labore recusandae porro voluptas ipsam tempora suscipit, nisi natus blanditiis dolorem debitis esse inventore? Ratione! Is there anything? " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.title) + " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis odit provident hic quia quos eius maxime beatae ut inventore vel, recusandae vitae illum atque quaerat laborum incidunt sequi? Velit, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aperiam iure ratione laudantium, recusandae veniam quia saepe harum quis eos doloremque incidunt voluptate praesentium ut modi. Cumque at ipsam minus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, expedita rerum nam harum et itaque obcaecati provident aliquid dicta atque ipsa corrupti error omnis quidem ad porro. Eos, nemo quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos dignissimos qui doloremque quis aliquam voluptatem numquam iure, nesciunt provident ipsum dicta optio nam? Sunt optio, odit praesentium quam iste maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, repudiandae fugit quidem deserunt magni incidunt eos adipisci velit nobis distinctio dicta et, obcaecati maiores odit cupiditate quas aliquid! Ex, explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, optio amet nihil, fugit odit libero corrupti eos recusandae fugiat dolorum quod! Ab nostrum assumenda dolor veniam maiores, dolores ipsa! Dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laudantium obcaecati voluptatum natus, labore numquam qui placeat vitae odio expedita nesciunt nostrum, in blanditiis rerum suscipit, officiis culpa inventore. Recusandae! ", 1
+                  /* TEXT */
+                  )];
+                }),
+                _: 1
+                /* STABLE */
+
+              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <v-card elevation=\"0\" height=\"100px\"\r\n                    >And this is the content</v-card\r\n                > ")];
+            }),
+            _: 1
+            /* STABLE */
+
           })];
         }),
         _: 1
@@ -19375,9 +19429,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"container-fluid\"> "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </div> ")], 64
-  /* STABLE_FRAGMENT */
-  );
+  });
 }
 
 /***/ }),
