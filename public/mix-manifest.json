@@ -1,4 +1,5 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/webfontloader.js": "/js/webfontloader.js",
+    "/node_modules/vuetify/dist/vuetify.min.css": "/node_modules/vuetify/dist/vuetify.min.css"
 }
